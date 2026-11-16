@@ -1,6 +1,6 @@
 # Automated-Product-Catalogue-Scraper
 
-THE REQUEST
+THE REQUEST \n
 Create a Python script to extract product information from an e-commerce website (TomKardy), specifically from two categories containing original and tester UAE packaging products. The goal was to collect product titles, URLs, original prices, and current prices across all pages and organize the extracted data into an Excel spreadsheet.
 
 THE APPROACH
