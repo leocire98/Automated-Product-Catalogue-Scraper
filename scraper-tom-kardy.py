@@ -62,7 +62,7 @@ def main() -> None:
         for page_number in range(1, LAST_PAGE + 1):
             products = scrape_page(driver, page_number)
             if not products:
-                raise RuntimeError(f"Nessun prodotto trovato nella pagina {page_number}.")
+                raise RuntimeError(f"No products found in page {page_number}.")
 
             all_products.extend(products)
             print(f"Page {page_number}/{LAST_PAGE} completed")
