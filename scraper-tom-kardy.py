@@ -18,7 +18,7 @@ OUTPUT_FILE = Path("file.xlsx")
 SHEET_NAME = "first-link"
 
 
-def clean_price(price: str) -> str:
+def clean_price(price: str) -> float:
     cleaned = price.replace("\u00a0", "").replace("від", "").replace("₴", "").replace(" ", "").strip()
     return float(cleaned) if cleaned else 0.0
 
